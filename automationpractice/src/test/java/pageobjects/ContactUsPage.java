@@ -1,10 +1,10 @@
 package pageobjects;
 
-import browserdriver.BrowserDriver;
 import helper.ApplicationHelper;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
+import reporting.TestLogger;
 
 public class ContactUsPage {
 
@@ -26,11 +26,11 @@ public class ContactUsPage {
 
 
     public void sendText(String message){
-       /* TestLogger.log("Sending texts to message box");
+        TestLogger.log("Sending texts to message box");
         messageBox.sendKeys("Hello Writing from web automation framework");
-        TestLogger.log("Message written in message box");*/
+        TestLogger.log("Message written in message box");
         ApplicationHelper.sendKeys("messageBox", messageBox, message);
-        BrowserDriver.sparkConfig();
+        //BrowserDriver.sparkConfig();
         clickSubmitButton();
     }
     // Clicking Submit Button

@@ -1,11 +1,7 @@
 package browserdriver;
 
-//import com.relevantcodes.extentreports.ExtentReports;
-//import com.relevantcodes.extentreports.LogStatus;
-
-import com.aventstack.extentreports.ExtentReports;
-import com.aventstack.extentreports.Status;
-import com.aventstack.extentreports.reporter.ExtentSparkReporter;
+import com.relevantcodes.extentreports.ExtentReports;
+import com.relevantcodes.extentreports.LogStatus;
 import org.codehaus.plexus.util.FileUtils;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
@@ -16,13 +12,24 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxOptions;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
-import org.testng.annotations.*;
+import org.testng.ITestContext;
+import org.testng.ITestResult;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.AfterSuite;
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.BeforeSuite;
+import reporting.ExtentManager;
+import reporting.ExtentTestManager;
 
 import java.io.File;
+import java.io.PrintWriter;
+import java.io.StringWriter;
+import java.lang.reflect.Method;
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
+import java.util.Calendar;
 import java.util.Date;
 import java.util.concurrent.TimeUnit;
 
@@ -43,7 +50,7 @@ public class BrowserDriver {
      * **************************************************
      * */
 
-   /* //ExtentReport
+//  //ExtentReport
     public static ExtentReports extent;
     @BeforeSuite
     public void extentSetup(ITestContext context) {
@@ -85,7 +92,7 @@ public class BrowserDriver {
             captureScreenshot(driver, result.getName());
         }
         driver.quit();
-    }*/
+    }
 
     public static void captureScreenshot(WebDriver driver, String screenshotName){
 
@@ -102,15 +109,15 @@ public class BrowserDriver {
         }
 
     }
-//    @AfterSuite
-//    public void generateReport() {
-//        extent.close();
-//    }
-//    private Date getTime(long millis) {
-//        Calendar calendar = Calendar.getInstance();
-//        calendar.setTimeInMillis(millis);
-//        return calendar.getTime();
-//    }
+    @AfterSuite
+    public void generateReport() {
+        extent.close();
+    }
+    private Date getTime(long millis) {
+        Calendar calendar = Calendar.getInstance();
+        calendar.setTimeInMillis(millis);
+        return calendar.getTime();
+    }
 
     /**
      * **********************************************
@@ -242,7 +249,7 @@ public class BrowserDriver {
         // Closing browser
         driver.quit();
     }
-  public static void sparkConfig(){
+ /* public static void sparkConfig(){
       ExtentReports extent = new ExtentReports();
       ExtentSparkReporter spark = new ExtentSparkReporter("target/Spark.html");
       extent.attachReporter(spark);
@@ -250,5 +257,5 @@ public class BrowserDriver {
               .log(Status.PASS, "This is a logging event for MyFirstTest, and it passed!");
       extent.flush();
 
-  }
+  }*/
 }

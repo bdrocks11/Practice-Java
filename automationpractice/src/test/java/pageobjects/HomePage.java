@@ -1,12 +1,10 @@
 package pageobjects;
 
-import browserdriver.BrowserDriver;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
-import org.testng.Assert;
 
 
 public class HomePage {
@@ -46,7 +44,7 @@ public class HomePage {
         // Get Tag value from the specific location/tag
         String actualValue = searchResult.getText();
         System.out.println(actualValue);
-        BrowserDriver.sparkConfig();
+        //BrowserDriver.sparkConfig();
         return actualValue;
     }
 

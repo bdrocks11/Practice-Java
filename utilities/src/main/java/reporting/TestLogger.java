@@ -1,7 +1,5 @@
 package reporting;
 
-//import com.relevantcodes.extentreports.LogStatus;
-
 import org.testng.Reporter;
 
 public class TestLogger {
