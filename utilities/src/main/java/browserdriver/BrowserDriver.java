@@ -35,7 +35,7 @@ import java.util.concurrent.TimeUnit;
 
 public class BrowserDriver {
     public static WebDriver driver = null;
-    public static String browserName = System.getProperty("browserName", "chrome");
+    public static String browserName = System.getProperty("browserName", "firefox");
     public static final String url = System.getProperty("url", "http://automationpractice.com/");
     public static String platform = System.getProperty("platform", "local");
     public static String os = System.getProperty("os", "mac");
