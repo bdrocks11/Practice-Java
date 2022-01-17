@@ -9,7 +9,7 @@ public class WhileLoopDemo {
         while (age <=18){
             System.out.println( "Age: " + age + ", will go to school ");
             age  = age +1;
-            age= 19;
+            
         }
     }
 }

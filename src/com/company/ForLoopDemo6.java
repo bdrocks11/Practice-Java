@@ -12,9 +12,11 @@ public class ForLoopDemo6 {
            // System.out.println("step:  " + step + ", you are walking 3 feet per step""\n );
     for (int distance=0; distance <= 300; distance++){
 
-        distance=distance +2;
-    step++;
+
+
         System.out.println("distance: " +distance+ "\nStep count: " +step);
+        step++;
+        distance=distance +2;
     }
     }
 }
