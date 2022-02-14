@@ -1,4 +1,4 @@
-package com.sanacollection;
+package com.sana.sanacollection;
 
 import java.util.*;
 import java.util.Iterator;

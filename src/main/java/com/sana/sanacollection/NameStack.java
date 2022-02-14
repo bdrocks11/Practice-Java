@@ -1,4 +1,4 @@
-package com.sanacollection;
+package com.sana.sanacollection;
 
 import java.util.ArrayList;
 import java.util.Iterator;

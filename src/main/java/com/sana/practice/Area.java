@@ -1,4 +1,4 @@
-package com.sana;
+package com.sana.practice;
 
 import java.util.Scanner;
 

@@ -8,25 +8,30 @@ import java.util.Scanner;
 
 public class InputTest {
 
-    private int actualResult;
+/*
+   // public static void main(String[] args) {
+      //  takeNumber();
 
-    @Test
-    public void scannerClass() {
+    //}
+
+ */
+   @Test
+    public static void takeNumber() {
+ Scanner in = new Scanner(System.in);
+
+        System.out.println("enter number");
+
+    int act = in.nextInt();
 
 
-
-        actualResult = scn();
-        int expectedResult = 4;
+       int actualResult = act;
 
 
-        Assert.assertEquals(actualResult, expectedResult);
+            int expectedResult = 4;
+
+
+            Assert.assertEquals(actualResult, expectedResult);
+        }
+
+
     }
-    public int scn(){
-        Scanner in = new Scanner(System.in);
-
-        System.out.println("enter an integer");
-
-        int x = in.nextInt();
-        return x;
-    }
-}
