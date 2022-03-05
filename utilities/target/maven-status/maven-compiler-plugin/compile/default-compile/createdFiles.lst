@@ -1,4 +1,6 @@
-reporting/ApplicationLog.class
-excelreader/MyDataReader.class
-reporting/TestLogger.class
-browserdriver/BrowserDriver.class
+reporting\TestLogger.class
+excelreader\MyDataReader.class
+reporting\ExtentManager.class
+reporting\ExtentTestManager.class
+reporting\ApplicationLog.class
+browserdriver\BrowserDriver.class

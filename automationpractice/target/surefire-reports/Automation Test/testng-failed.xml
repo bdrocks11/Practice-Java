@@ -3,14 +3,18 @@
 <suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Automation Test]">
   <test thread-count="5" verbose="0" name="Ecommerce Home(failed)">
     <classes>
-      <class name="pageobjectstests.HomePageTest">
+      <class name="pageobjectstests.SignInTest">
         <methods>
           <include name="setUp"/>
-          <include name="cleanUP"/>
-          <include name="searchTest"/>
+          <include name="startExtent"/>
           <include name="initializeElements"/>
+          <include name="cleanUP"/>
+          <include name="clickSignIn"/>
+          <include name="extentSetup"/>
+          <include name="generateReport"/>
+          <include name="afterEachTestMethod"/>
         </methods>
-      </class> <!-- pageobjectstests.HomePageTest -->
+      </class> <!-- pageobjectstests.SignInTest -->
     </classes>
   </test> <!-- Ecommerce Home(failed) -->
 </suite> <!-- Failed suite [Automation Test] -->

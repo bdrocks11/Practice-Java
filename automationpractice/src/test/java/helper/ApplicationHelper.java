@@ -62,6 +62,7 @@ public class ApplicationHelper {
                 .pollingEvery(6, TimeUnit.SECONDS)
                 //Which will ignore the NoSuchElementException
                 .ignoring(NoSuchElementException.class);
+
     }
 
 }

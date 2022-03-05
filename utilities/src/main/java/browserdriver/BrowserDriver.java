@@ -14,10 +14,7 @@ import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
 import org.testng.ITestContext;
 import org.testng.ITestResult;
-import org.testng.annotations.AfterMethod;
-import org.testng.annotations.AfterSuite;
-import org.testng.annotations.BeforeMethod;
-import org.testng.annotations.BeforeSuite;
+import org.testng.annotations.*;
 import reporting.ExtentManager;
 import reporting.ExtentTestManager;
 
@@ -35,10 +32,10 @@ import java.util.concurrent.TimeUnit;
 
 public class BrowserDriver {
     public static WebDriver driver = null;
-    public static String browserName = System.getProperty("browserName", "firefox");
+    public static String browserName = System.getProperty("browserName", "chrome");
     public static final String url = System.getProperty("url", "http://automationpractice.com/");
     public static String platform = System.getProperty("platform", "local");
-    public static String os = System.getProperty("os", "mac");
+    public static String os = System.getProperty("os", "windows");
     public static String cloudPlatformName = System.getProperty("cloudPlatformName", "browserstack");
     public static final String AUTOMATE_USERNAME = System.getProperty("AUTOMATE_USERNAME","yourusername");
     public static final String AUTOMATE_ACCESS_KEY = System.getProperty("AUTOMATE_ACCESS_KEY", "xxnxn");
@@ -245,10 +242,13 @@ public class BrowserDriver {
 
 
     @AfterMethod
+
     public void cleanUP(){
         // Closing browser
         driver.quit();
     }
+
+
  /* public static void sparkConfig(){
       ExtentReports extent = new ExtentReports();
       ExtentSparkReporter spark = new ExtentSparkReporter("target/Spark.html");

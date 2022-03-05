@@ -11,7 +11,7 @@
     <modules>
         <module>utilities</module>
         <module>automationpractice</module>
-        <module>hrpms</module>
+<!--        <module>hrpms</module>-->
     </modules>
 
     <properties>

@@ -8,9 +8,10 @@
         <outputRelativeToContentRoot value="true" />
         <module name="utilities" />
         <module name="automationpractice" />
-        <module name="hrpms" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel target="8" />
+    <bytecodeTargetLevel target="8">
+      <module name="hrpms" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>
