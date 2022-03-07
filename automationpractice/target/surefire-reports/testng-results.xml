@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" ignored="2" total="4" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
     <line>
       <![CDATA[Extent Report DirectoryC:\Users\abusu\B2101WebAutomation\automationpractice\target\surefire-reports\html]]>
     </line>
   </reporter-output>
-  <suite name="Automation Test" duration-ms="8516" started-at="2022-03-05T19:59:04Z" finished-at="2022-03-05T19:59:13Z">
+  <suite name="Automation Test" duration-ms="9605" started-at="2022-03-07T21:46:24Z" finished-at="2022-03-07T21:46:33Z">
     <groups>
     </groups>
-    <test name="Ecommerce Home" duration-ms="8516" started-at="2022-03-05T19:59:04Z" finished-at="2022-03-05T19:59:13Z">
+    <test name="Ecommerce Home" duration-ms="9605" started-at="2022-03-07T21:46:24Z" finished-at="2022-03-07T21:46:33Z">
       <class name="pageobjectstests.HomePageTest">
-        <test-method status="PASS" signature="extentSetup(org.testng.ITestContext)[pri:0, instance:pageobjectstests.HomePageTest@23ceabc1]" name="extentSetup" is-config="true" duration-ms="253" started-at="2022-03-05T19:59:04Z" finished-at="2022-03-05T19:59:04Z">
+        <test-method status="PASS" signature="extentSetup(org.testng.ITestContext)[pri:0, instance:pageobjectstests.HomePageTest@4439f31e]" name="extentSetup" is-config="true" duration-ms="238" started-at="2022-03-07T21:46:24Z" finished-at="2022-03-07T21:46:24Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@6f0b0a5e]]>
+                <![CDATA[org.testng.TestRunner@39ad977d]]>
               </value>
             </param>
           </params>
@@ -24,11 +24,11 @@
             </line>
           </reporter-output>
         </test-method> <!-- extentSetup -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:pageobjectstests.HomePageTest@23ceabc1]" name="setUp" is-config="true" duration-ms="6227" started-at="2022-03-05T19:59:04Z" finished-at="2022-03-05T19:59:10Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:pageobjectstests.HomePageTest@4439f31e]" name="setUp" is-config="true" duration-ms="5438" started-at="2022-03-07T21:46:24Z" finished-at="2022-03-07T21:46:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:pageobjectstests.HomePageTest@23ceabc1]" name="startExtent" is-config="true" duration-ms="7" started-at="2022-03-05T19:59:10Z" finished-at="2022-03-05T19:59:10Z">
+        <test-method status="PASS" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:pageobjectstests.HomePageTest@4439f31e]" name="startExtent" is-config="true" duration-ms="8" started-at="2022-03-07T21:46:29Z" finished-at="2022-03-07T21:46:29Z">
           <params>
             <param index="0">
               <value>
@@ -39,81 +39,34 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startExtent -->
-        <test-method status="PASS" signature="initializeElements()[pri:0, instance:pageobjectstests.HomePageTest@23ceabc1]" name="initializeElements" is-config="true" duration-ms="36" started-at="2022-03-05T19:59:10Z" finished-at="2022-03-05T19:59:10Z">
+        <test-method status="PASS" signature="initializeElements()[pri:0, instance:pageobjectstests.HomePageTest@4439f31e]" name="initializeElements" is-config="true" duration-ms="48" started-at="2022-03-07T21:46:29Z" finished-at="2022-03-07T21:46:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initializeElements -->
-        <test-method status="PASS" signature="searchTest()[pri:0, instance:pageobjectstests.HomePageTest@23ceabc1]" name="searchTest" duration-ms="960" started-at="2022-03-05T19:59:10Z" finished-at="2022-03-05T19:59:11Z">
+        <test-method status="PASS" signature="searchTest()[pri:0, instance:pageobjectstests.HomePageTest@4439f31e]" name="searchTest" duration-ms="2645" started-at="2022-03-07T21:46:29Z" finished-at="2022-03-07T21:46:32Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchTest -->
-        <test-method status="PASS" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:pageobjectstests.HomePageTest@23ceabc1]" name="afterEachTestMethod" is-config="true" duration-ms="1241" started-at="2022-03-05T19:59:11Z" finished-at="2022-03-05T19:59:12Z">
+        <test-method status="PASS" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:pageobjectstests.HomePageTest@4439f31e]" name="afterEachTestMethod" is-config="true" duration-ms="1441" started-at="2022-03-07T21:46:32Z" finished-at="2022-03-07T21:46:33Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=searchTest status=SUCCESS method=HomePageTest.searchTest()[pri:0, instance:pageobjectstests.HomePageTest@23ceabc1] output={null}]]]>
+                <![CDATA[[TestResult name=searchTest status=SUCCESS method=HomePageTest.searchTest()[pri:0, instance:pageobjectstests.HomePageTest@4439f31e] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterEachTestMethod -->
-        <test-method status="PASS" signature="cleanUP()[pri:0, instance:pageobjectstests.HomePageTest@23ceabc1]" name="cleanUP" is-config="true" duration-ms="1" started-at="2022-03-05T19:59:12Z" finished-at="2022-03-05T19:59:12Z">
+        <test-method status="PASS" signature="cleanUP()[pri:0, instance:pageobjectstests.HomePageTest@4439f31e]" name="cleanUP" is-config="true" duration-ms="0" started-at="2022-03-07T21:46:33Z" finished-at="2022-03-07T21:46:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cleanUP -->
-        <test-method status="PASS" signature="generateReport()[pri:0, instance:pageobjectstests.HomePageTest@23ceabc1]" name="generateReport" is-config="true" duration-ms="58" started-at="2022-03-05T19:59:13Z" finished-at="2022-03-05T19:59:13Z">
+        <test-method status="PASS" signature="generateReport()[pri:0, instance:pageobjectstests.HomePageTest@4439f31e]" name="generateReport" is-config="true" duration-ms="44" started-at="2022-03-07T21:46:33Z" finished-at="2022-03-07T21:46:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- generateReport -->
       </class> <!-- pageobjectstests.HomePageTest -->
-      <class name="pageobjectstests.SignInTest">
-        <test-method status="FAIL" signature="clickSignIn(java.lang.String)[pri:0, instance:pageobjectstests.SignInTest@5d5eef3d]" name="clickSignIn" duration-ms="0" started-at="2022-03-05T19:59:13Z" finished-at="2022-03-05T19:59:13Z">
-          <exception class="org.testng.TestNGException">
-            <message>
-              <![CDATA[
-Cannot inject @Test annotated Method [clickSignIn] with [class java.lang.String].
-For more information on native dependency injection please refer to http://testng.org/doc/documentation-main.html#native-dependency-injection]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.testng.TestNGException: 
-Cannot inject @Test annotated Method [clickSignIn] with [class java.lang.String].
-For more information on native dependency injection please refer to http://testng.org/doc/documentation-main.html#native-dependency-injection
-at org.testng.internal.Parameters.checkParameterTypes(Parameters.java:407)
-at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:356)
-at org.testng.internal.Parameters.createParameters(Parameters.java:635)
-at org.testng.internal.Parameters.handleParameters(Parameters.java:769)
-at org.testng.internal.ParameterHandler.handleParameters(ParameterHandler.java:49)
-at org.testng.internal.ParameterHandler.createParameters(ParameterHandler.java:37)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:924)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
-at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
-at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:373)
-at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:334)
-at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:119)
-at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:407)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.testng.TestNGException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- clickSignIn -->
-      </class> <!-- pageobjectstests.SignInTest -->
     </test> <!-- Ecommerce Home -->
   </suite> <!-- Automation Test -->
 </testng-results>

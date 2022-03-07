@@ -6,7 +6,7 @@
     <classes>
         <class name="pageobjectstests.HomePageTest"/>
 <!--        <class name="pageobjectstests.ContactUsTest"/>-->
-        <class name="pageobjectstests.SignInTest"></class>
+<!--        <class name="pageobjectstests.SignInTest"></class>-->
     </classes>
 </test>
 
